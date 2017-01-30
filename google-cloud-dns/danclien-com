@@ -1,3 +1,4 @@
+; Google Apps MX records
 danclien.com. 300 IN MX 1 aspmx.l.google.com.
 danclien.com. 300 IN MX 5 alt1.aspmx.l.google.com.
 danclien.com. 300 IN MX 5 alt2.aspmx.l.google.com.

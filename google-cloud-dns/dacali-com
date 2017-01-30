@@ -1,3 +1,4 @@
+; Google Apps MX records
 dacali.com. 300 IN MX 1 aspmx.l.google.com.
 dacali.com. 300 IN MX 5 alt1.aspmx.l.google.com.
 dacali.com. 300 IN MX 5 alt2.aspmx.l.google.com.
