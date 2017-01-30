@@ -103,15 +103,26 @@ danclien.com
 #### Set up MX records
 
 
+##### Importing MX records
+```
+gcloud dns record-sets import google-cloud-dns/dacali-com --zone-file-format --zone=dacali-com
+```
+
+
 ##### Google Apps
 
 MX records for Google Apps
 ```
-1	ASPMX.L.GOOGLE.COM
-5	ALT1.ASPMX.L.GOOGLE.COM
-5	ALT2.ASPMX.L.GOOGLE.COM
-10	ALT3.ASPMX.L.GOOGLE.COM
-10	ALT4.ASPMX.L.GOOGLE.COM
+1 ASPMX.L.GOOGLE.COM
+5 ALT1.ASPMX.L.GOOGLE.COM
+5 ALT2.ASPMX.L.GOOGLE.COM
+10 ALT3.ASPMX.L.GOOGLE.COM
+10 ALT4.ASPMX.L.GOOGLE.COM
+```
+
+```
+gcloud dns record-sets export danclien-com --zone-file-format -z danclien-com
+
 ```
 
 ##### Google Domains Email Forwarding
@@ -122,3 +133,7 @@ MX records for Google Apps
 30 alt3.gmr-smtp-in.l.google.com
 40 alt4.gmr-smtp-in.l.google.com
 ```
+
+
+
+#### Export zone files

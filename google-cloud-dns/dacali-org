@@ -1,0 +1,5 @@
+dacali.org. 300 IN MX 5 gmr-smtp-in.l.google.com.
+dacali.org. 300 IN MX 10 alt1.gmr-smtp-in.l.google.com.
+dacali.org. 300 IN MX 20 alt2.gmr-smtp-in.l.google.com.
+dacali.org. 300 IN MX 30 alt3.gmr-smtp-in.l.google.com.
+dacali.org. 300 IN MX 40 alt4.gmr-smtp-in.l.google.com.
