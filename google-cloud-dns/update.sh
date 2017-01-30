@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+
 zone_name=$1
 zone_file=$zone_name
 
