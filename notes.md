@@ -120,10 +120,6 @@ MX records for Google Apps
 10 ALT4.ASPMX.L.GOOGLE.COM
 ```
 
-```
-gcloud dns record-sets export danclien-com --zone-file-format -z danclien-com
-
-```
 
 ##### Google Domains Email Forwarding
 ```
@@ -137,3 +133,23 @@ gcloud dns record-sets export danclien-com --zone-file-format -z danclien-com
 
 
 #### Export zone files
+```
+gcloud dns record-sets export danclien-com --zone-file-format --zone=danclien-com
+
+```
+
+### Google Container Engine
+
+#### Start the cluster
+```
+gcloud container --project "dl-personal" clusters create "main" --zone "us-central1-a" --machine-type "g1-small" --image-type "GCI" --disk-size "100" --scopes "https://www.googleapis.com/auth/compute","https://www.googleapis.com/auth/devstorage.read_only","https://www.googleapis.com/auth/logging.write","https://www.googleapis.com/auth/servicecontrol","https://www.googleapis.com/auth/service.management.readonly","https://www.googleapis.com/auth/trace.append" --num-nodes "1" --network "default" --enable-cloud-logging --no-enable-cloud-monitoring
+
+```
+
+
+### Google Computer Engine
+
+#### Create a static IP address
+```
+gcloud compute --project "dl-personal" addresses create "main" --region "us-central1"
+```
