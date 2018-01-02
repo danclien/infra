@@ -1,6 +1,17 @@
-; Google Apps MX records
+danclien.com. 300 IN A 151.101.1.195
+danclien.com. 300 IN A 151.101.65.195
 danclien.com. 300 IN MX 1 aspmx.l.google.com.
 danclien.com. 300 IN MX 5 alt1.aspmx.l.google.com.
 danclien.com. 300 IN MX 5 alt2.aspmx.l.google.com.
 danclien.com. 300 IN MX 10 alt3.aspmx.l.google.com.
 danclien.com. 300 IN MX 10 alt4.aspmx.l.google.com.
+danclien.com. 21600 IN NS ns-cloud-b1.googledomains.com.
+danclien.com. 21600 IN NS ns-cloud-b2.googledomains.com.
+danclien.com. 21600 IN NS ns-cloud-b3.googledomains.com.
+danclien.com. 21600 IN NS ns-cloud-b4.googledomains.com.
+danclien.com. 21600 IN SOA ns-cloud-b1.googledomains.com. cloud-dns-hostmaster.google.com. 1 21600 3600 259200 300
+danclien.com. 300 IN TXT "keybase-site-verification=-kC22ILUI2avc3ZEAwUaweFcUoBQrPqDEkBLdsoVz4E"
+echo.danclien.com. 300 IN CNAME ingress.danclien.com.
+ingress.danclien.com. 300 IN A 104.197.234.245
+local.danclien.com. 300 IN A 45.18.124.18
+www.danclien.com. 300 IN CNAME danclien.com.
